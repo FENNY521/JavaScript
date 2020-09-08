@@ -1,12 +1,13 @@
 /*ziye  微信扫码  https://raw.githubusercontent.com/ziye12/JavaScript/master/yydkziye.png 进入小程序，登录获取授权
 2020.9.8，
+2020.9.9 修复部分错误
+
+
+
 
 
 说明：以音乐打卡为例的打卡模版，可以抓包然后替换以下内容来制作其他打卡脚本
-
-
 需要替换的内容如下，先替换长的，再替换短的，自己用电脑或者KODE软件替换，下载链接https://apps.apple.com/cn/app/koder-code-editor/id1447489375
-
 
 
 www.baimaa.com
@@ -46,14 +47,14 @@ www\.baimaa\.com
 
 
 //surge
-slw打卡 = type=http-request,pattern=^https:\/\/www\.baimaa\.com\/*,requires-body=1,max-size=0,script-path= https://raw.githubusercontent.com/ziye12/JavaScript/master/yydkziye.js
+音乐打卡 = type=http-request,pattern=^https:\/\/www\.baimaa\.com\/*,requires-body=1,max-size=0,script-path= https://raw.githubusercontent.com/ziye12/JavaScript/master/yydkziye.js
 
 
 //圈x
 https:\/\/www\.baimaa\.com\/* url script-request-header https://raw.githubusercontent.com/ziye12/JavaScript/master/yydkziye.js
 
 //loon
-http-request ^https:\/\/www\.baimaa\.com\/* script-path= https://raw.githubusercontent.com/ziye12/JavaScript/master/yydkziye.js, requires-body=true, timeout=10, tag=打卡
+http-request ^https:\/\/www\.baimaa\.com\/* script-path= https://raw.githubusercontent.com/ziye12/JavaScript/master/yydkziye.js, requires-body=true, timeout=10, tag=音乐打卡
 
 
 
