@@ -40,7 +40,7 @@ ph0001\.hezyq\.com
 
 
 surge:本地
-slw打卡 = type=http-request,pattern=^https:\/\/ph0001\.hezyq\.com\/*,requires-body=1,max-size=0,script-path= https://raw.githubusercontent.com/ziye12/JavaScript/master/asdkziye.js
+爱尚打卡 = type=http-request,pattern=^https:\/\/ph0001\.hezyq\.com\/*,requires-body=1,max-size=0,script-path= https://raw.githubusercontent.com/ziye12/JavaScript/master/asdkziye.js
 
 
 
@@ -50,7 +50,7 @@ https:\/\/ph0001\.hezyq\.com\/* url script-request-header https://raw.githubuser
 
 loon:本地
 http-request ^https:\/\/ph0001\.hezyq\.com\/* script-path= https://raw.githubusercontent.com/ziye12/JavaScript/master/asdkziye.js
-, requires-body=true, timeout=10, tag=打卡
+, requires-body=true, timeout=10, tag=爱尚打卡
 
 
 
