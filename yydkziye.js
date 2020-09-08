@@ -1,5 +1,10 @@
-/*ziye  微信扫码  https://raw.githubusercontent.com/ziye12/JavaScript/master/yydkziye.png 进入小程序，登录获取授权
-2020.9.8，
+/*ziye  
+
+微信扫码  https://raw.githubusercontent.com/ziye12/JavaScript/master/yydkziye.png 进入小程序，登录获取授权
+
+
+
+2020.9.8
 2020.9.9 修复部分错误
 
 
@@ -59,8 +64,7 @@ http-request ^https:\/\/www\.baimaa\.com\/* script-path= https://raw.githubuserc
 
 
 
-三，添加重写，然后
-打开程序，获取ck后注释掉
+
 */
 
 
