@@ -1,5 +1,5 @@
-/*ziye
-2020.9.8
+/*ziye  微信扫码  https://raw.githubusercontent.com/ziye12/JavaScript/master/yydkziye.png 进入小程序，登录获取授权
+2020.9.8，
 
 
 说明：以音乐打卡为例的打卡模版，可以抓包然后替换以下内容来制作其他打卡脚本
@@ -20,8 +20,14 @@ yydk
 手动替换
 www\.baimaa\.com
 
-一，将hostname复制粘贴进配置文件
-二，将重写复制到 rewrite_local 下，进对应小程序获取ck，
+
+使用说明：
+
+一，微信扫码  https://raw.githubusercontent.com/ziye12/JavaScript/master/yydkziye.png 进入小程序，登录获取授权
+
+二，然后将hostname复制粘贴进配置文件
+
+三，将重写复制到 rewrite_local 下，再进入程序获取ck，建议 放入新建配置片段，获取之后禁用即可
 
 
 功能如下：
@@ -33,27 +39,27 @@ www\.baimaa\.com
 ***建议设置每小时运行一次 
 
 
-圈X
+主机名
 
 1、hostname= www.baimaa.com,
 
 
 
-surge:本地
-slw打卡 = type=http-request,pattern=^https:\/\/www\.baimaa\.com\/*,requires-body=1,max-size=0,script-path= yydkziye.js
+//surge
+slw打卡 = type=http-request,pattern=^https:\/\/www\.baimaa\.com\/*,requires-body=1,max-size=0,script-path= https://raw.githubusercontent.com/ziye12/JavaScript/master/yydkziye.js
 
 
-圈x:本地
-https:\/\/www\.baimaa\.com\/* url script-request-header yydkziye.js
+//圈x
+https:\/\/www\.baimaa\.com\/* url script-request-header https://raw.githubusercontent.com/ziye12/JavaScript/master/yydkziye.js
 
-loon:本地
-http-request ^https:\/\/www\.baimaa\.com\/* script-path= yydkziye.js, requires-body=true, timeout=10, tag=打卡
-
-
+//loon
+http-request ^https:\/\/www\.baimaa\.com\/* script-path= https://raw.githubusercontent.com/ziye12/JavaScript/master/yydkziye.js, requires-body=true, timeout=10, tag=打卡
 
 
-三，添加重写，然后打开以下对应程序，获取ck后注释掉
 
+
+三，添加重写，然后
+打开程序，获取ck后注释掉
 */
 
 
