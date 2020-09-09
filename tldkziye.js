@@ -1,10 +1,13 @@
-/*ziye
+/*ziye 
+
 
 微信扫码  https://raw.githubusercontent.com/ziye12/JavaScript/master/tldkziye.png 进入小程序，登录获取授权
 
 
 
-2020.9.9
+2020.9.9  非常重要！！！  原本打卡规定是30分钟一次，打卡速度一定不要太快，否则封号
+
+
 
 
 说明：以陀螺打卡为例的打卡模版，可以抓包然后替换以下内容来制作其他打卡脚本
