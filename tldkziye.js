@@ -6,7 +6,7 @@
 
 
 2020.9.9  非常重要！！！  原本打卡规定是30分钟一次，打卡速度一定不要太快，否则封号
-
+2020.9.10 修复重写错误
 
 
 
@@ -26,7 +26,7 @@ i=15
 tldk
 
 手动替换
-ph0001\.hezyq\.com
+wq\.02gk\.com
 
 使用说明：
 
@@ -52,16 +52,16 @@ ph0001\.hezyq\.com
 
 
 //surge
-陀螺打卡 = type=http-request,pattern=^https:\/\/ph0001\.hezyq\.com\/*,requires-body=1,max-size=0,script-path= https://raw.githubusercontent.com/ziye12/JavaScript/master/tldkziye.js
+陀螺打卡 = type=http-request,pattern=^https:\/\/wq\.02gk\.com\/*,requires-body=1,max-size=0,script-path= https://raw.githubusercontent.com/ziye12/JavaScript/master/tldkziye.js
 
 
 
 //圈x
-https:\/\/ph0001\.hezyq\.com\/* url script-request-header https://raw.githubusercontent.com/ziye12/JavaScript/master/tldkziye.js
+https:\/\/wq\.02gk\.com\/* url script-request-header https://raw.githubusercontent.com/ziye12/JavaScript/master/tldkziye.js
 
 
 //loon
-http-request ^https:\/\/ph0001\.hezyq\.com\/* script-path= https://raw.githubusercontent.com/ziye12/JavaScript/master/tldkziye.js
+http-request ^https:\/\/wq\.02gk\.com\/* script-path= https://raw.githubusercontent.com/ziye12/JavaScript/master/tldkziye.js
 , requires-body=true, timeout=10, tag=陀螺打卡
 
 
