@@ -1,17 +1,21 @@
-/*ziye
+/*ziye 早起打卡
 
-微信扫码  https://raw.githubusercontent.com/ziye12/JavaScript/master/zqdkziye.png 进入小程序，登录获取授权
+
+非常重要！！！   
+
+微信扫码  https://raw.githubusercontent.com/ziye12/JavaScript/master/zqdkziye.png 进入小程序，登录获取授权，再启动软件获取ck 
+建议设置6点到23点之间打卡，时间间隔30分钟以上,否则容易封号
+
 
 
 
 2020.9.9
 
 
-说明：以早起打卡为例的打卡模版，可以抓包然后替换以下内容来制作其他打卡脚本
+《《《《《《《《《《制作其他打卡js的说明
 
-
-需要替换的内容如下，先替换长的，再替换短的，自己用电脑或者KODE软件替换，下载链接https://apps.apple.com/cn/app/koder-code-editor/id1447489375
-
+抓包小程序，然后替换以下内容来制作其他打卡js，
+需要替换的内容如下，按顺序替换字符，自己用电脑或者KODE软件替换，KODE下载链接https://apps.apple.com/cn/app/koder-code-editor/id1447489375
 
 
 ph0001.hezyq.com
@@ -24,6 +28,16 @@ zqdk
 
 手动替换
 ph0001\.hezyq\.com
+
+制作其他打卡js的说明》》》》》》》》》》》
+
+
+
+
+
+
+////////////////////////////////////////正文
+
 
 使用说明：
 
@@ -38,13 +52,7 @@ ph0001\.hezyq\.com
 2.打卡币统计，
 3.现金统计，自动提现
 
-
-***建议设置每小时运行一次 
-
-
-圈X
-
-1、hostname= ph0001.hezyq.com,
+hostname= ph0001.hezyq.com,
 
 
 
@@ -64,12 +72,10 @@ http-request ^https:\/\/ph0001\.hezyq\.com\/* script-path= https://raw.githubuse
 
 
 
-
-
 */
 
 
-//正文
+
 
 
 const sy = init()//声明必须
@@ -77,7 +83,7 @@ const notifyInterval = 1; //通知开为1，常关为0
 const logs = 0; // 日志开关
 const jsname = '早起打卡'
 const jbid =1
-const sb='失败,请获取ck'
+const sb='失败,请先关闭,进入程序获取授权'
 
 const cs = 20;//小程序打卡次数
 const xj = 1;//提现标准
