@@ -71,7 +71,7 @@ const notifyInterval = 1; //通知开为1，常关为0
 const logs = 0; // 日志开关
 const jsname = '爱尚打卡'
 const jbid =1
-const sb='失败,请先关闭，进入程序获取授权'
+const sb='失败,请先关闭,进入程序获取授权'
 
 const cs = 20;//小程序打卡次数
 const xj = 1;//提现标准
