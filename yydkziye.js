@@ -12,6 +12,7 @@
 
 2020.9.8
 2020.9.9 修复部分错误
+2020.9.13 打卡次数调整为5
 
 
 
@@ -24,7 +25,7 @@
 
 www.baimaa.com
 音乐打卡
-cs = 10
+cs = 5
 xj = 1
 yydkurl
 i=11
@@ -86,7 +87,7 @@ const jsname = '音乐打卡'
 const jbid =1
 const sb='失败,请先关闭,进入程序获取授权'
 
-const cs = 10;//小程序打卡次数
+const cs = 5;//小程序打卡次数
 const xj = 1;//提现标准
 var tz=''
 
